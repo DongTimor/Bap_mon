@@ -15,6 +15,7 @@ import com.example.testgit.ui.theme.TestGitTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         var x = 100
         setContent {
             TestGitTheme {
